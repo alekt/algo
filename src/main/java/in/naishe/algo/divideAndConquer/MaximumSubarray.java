@@ -2,6 +2,7 @@ package in.naishe.algo.divideAndConquer;
 
 /**
  * The maximum-subarray problem
+ * see detail discussion at http://code.naishe.in/2012/09/maximum-sum-sub-array.html
  * @author Nishant Neeraj (http://naishe.in)
  *
  */
