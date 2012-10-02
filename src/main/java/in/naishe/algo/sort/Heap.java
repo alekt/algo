@@ -6,7 +6,8 @@ import in.naishe.algo.utils.Util;
 
 /**
  * This is slightly modified version of what discussed here:
- * [[url]]
+ * http://code.naishe.in/2012/10/heap-and-heap-sort.html
+ * 
  * 1. I am not returning null from parent, left, or right methods
  *    instead I am checking validity in the calling method.
  * 2. Since it's 0 based index, I am not leaving zeroth index empty.
