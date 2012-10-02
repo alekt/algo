@@ -4,7 +4,7 @@ import in.naishe.algo.utils.Util;
 
 /**
  * Quick sort as discussed here:
- * [[URL]]
+ * http://code.naishe.in/2012/10/quicksort.html
  * @author Nishant Neeraj (http://naishe.in)
  *
  */
