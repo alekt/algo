@@ -27,4 +27,13 @@ public class Util {
 		a[j] = temp;
 		return a;
 	}
+
+	public static int getMax(int[] a) {
+		int max = Integer.MIN_VALUE;
+		for(int i: a){
+			if(i > max)
+				max = i;
+		}
+		return max;
+	}
 }
