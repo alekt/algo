@@ -4,7 +4,7 @@ import in.naishe.algo.utils.Util;
 
 /**
  * Counting sort as discussed here:
- * [[URL]]
+ * http://code.naishe.in/2012/10/counting-sort.html
  * 
  * NOTE: Since we are using a zero based index, while in 
  * the discussion on the blog above, we assume 1 based index
