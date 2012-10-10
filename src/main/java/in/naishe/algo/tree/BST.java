@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
+ * Implementation as discussed here: http://code.naishe.in/2012/10/bst-binary-search-tree.html
+ * 
  * In most of the implementations I will try to avoid use of 
  * parent pointer {@link Node#parent}, unless it gets hard to do without it.
  * @author Nishant Neeraj (http://naishe.in)
