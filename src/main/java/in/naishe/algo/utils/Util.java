@@ -1,13 +1,18 @@
 package in.naishe.algo.utils;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.Random;
 
 public class Util {
 	public static final Random rand = new Random();
+	private static final int MAX_LIMIT = 100;
+	
 	public static int[] generateIntArray(int length){
 		int[] a = new int[length];
 		for(int i=0; i<length; i++)
-			a[i] = rand.nextInt(100);
+			a[i] = rand.nextInt(MAX_LIMIT);
 		return a;
 	}
 	
@@ -35,5 +40,27 @@ public class Util {
 				max = i;
 		}
 		return max;
+	}
+
+	public static void drawHr() {
+		System.out.println("--------------------------------------------------------------------------------");
+	}
+
+	public static int[] generateIntUniqueArray(int arrayLength) {
+		HashSet<Integer> set = new HashSet<Integer>();
+		while(set.size() < arrayLength){
+			set.add(rand.nextInt(MAX_LIMIT));
+		}
+		int[] res = new int[arrayLength];
+		int i = 0;
+		for(int v: set){
+			res[i++] = v;
+		}
+			
+		return res;
+	}
+
+	public static void blankLine() {
+		System.out.println("");
 	}
 }
