@@ -6,6 +6,17 @@ import java.util.List;
 import in.naishe.algo.sort.QuickSort;
 import in.naishe.algo.utils.Util;
 
+/**
+ * a sorted array of distinct elements, A. Find the occurrences of elements where A[i] == i.
+ * NOTE: I have two implementations here,
+ * 1. Gives you an idea how we find the element if any using binary seach
+ * 2. Accumulates the values and then seaches left and right.
+ * 
+ * The main method uses the second approach.
+ * 
+ * @author Nishant Neeraj (http://naishe.in)
+ *
+ */
 public class SearchForAiI {
 
 	public static void main(String[] args) {
