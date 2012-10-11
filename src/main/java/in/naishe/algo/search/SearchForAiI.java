@@ -8,6 +8,8 @@ import in.naishe.algo.utils.Util;
 
 /**
  * a sorted array of distinct elements, A. Find the occurrences of elements where A[i] == i.
+ * As discussed here http://code.naishe.in/2012/10/search-in-array-for-ai-i.html
+ * 
  * NOTE: I have two implementations here,
  * 1. Gives you an idea how we find the element if any using binary seach
  * 2. Accumulates the values and then seaches left and right.
