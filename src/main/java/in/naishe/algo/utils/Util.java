@@ -1,13 +1,11 @@
 package in.naishe.algo.utils;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Random;
 
 public class Util {
 	public static final Random rand = new Random();
-	private static final int MAX_LIMIT = 100;
+	public static final int MAX_LIMIT = 100;
 	
 	public static int[] generateIntArray(int length){
 		int[] a = new int[length];
@@ -62,5 +60,18 @@ public class Util {
 
 	public static void blankLine() {
 		System.out.println("");
+	}
+
+	public static int[] generateIntArrayWithDupes(int length) {
+		int[] a = new int[length];
+		int i = 0;
+		while (i < a.length){
+			int v = rand.nextInt(MAX_LIMIT);
+			int reps = rand.nextInt(a.length);
+			for(int j=0; j<reps && i < a.length; j++){
+				a[i++] = v;
+			}
+		}
+		return a;
 	}
 }

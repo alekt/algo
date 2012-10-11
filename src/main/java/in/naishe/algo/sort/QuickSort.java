@@ -38,5 +38,9 @@ public class QuickSort {
 		Util.swap(a, leftIndex+1, j);
 		return leftIndex+1;
 	}
+	
+	public static void quickSort(int[] a) {
+		quickSort(a, 0, a.length-1);
+	}
 
 }
