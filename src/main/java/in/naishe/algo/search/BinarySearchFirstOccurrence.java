@@ -5,6 +5,7 @@ import in.naishe.algo.utils.Util;
 
 /**
  * Find the first occurrence of a given number in an sorted array.
+ * as discussed here http://code.naishe.in/2012/10/binary-search-first-occurrence-of.html
  * @author Nishant Neeraj (http://naishe.in)
  *
  */
