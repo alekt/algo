@@ -8,7 +8,7 @@ import in.naishe.algo.utils.Util;
 
 /**
  * Red-black tree implementation as discussed here:
- * [URL]
+ * http://code.naishe.in/2012/10/red-black-tree-insertion.html
  * 
  * @author Nishant Neeraj (http://naishe.in)
  *
