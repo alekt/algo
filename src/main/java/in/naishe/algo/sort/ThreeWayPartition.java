@@ -3,6 +3,8 @@ package in.naishe.algo.sort;
 import in.naishe.algo.utils.Util;
 
 /**
+ * Three way partitioning as discussed here: 
+ * http://code.naishe.in/2012/10/dutch-national-flag-problem.html
  * refer: http://en.wikipedia.org/wiki/Dutch_national_flag_problem
  * @author Nishant Neeraj (http://naishe.in)
  *
